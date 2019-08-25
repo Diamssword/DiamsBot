@@ -1,0 +1,109 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:226)
+	at com.google.gson.Gson.fromJson(Gson.java:927)
+	at com.google.gson.Gson.fromJson(Gson.java:892)
+	at com.google.gson.Gson.fromJson(Gson.java:841)
+	at com.google.gson.Gson.fromJson(Gson.java:813)
+	at diamssword.bot.commands.FactCmd.execute(FactCmd.java:41)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:62)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.j23:31:5:758 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts0.wav
+23:31:30:203 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts1.wav
+23:31:39:682 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts3.wav
+23:31:40:807 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts4.wav
+23:31:44:940 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts5.wav
+23:33:58:750 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts6.wav
+23:34:9:342 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts7.wav
+23:34:10:291 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts8.wav
+23:34:11:232 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts9.wav
+23:34:12:149 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts10.wav
+23:34:13:75 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts11.wav
+23:34:13:989 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts12.wav
+23:34:25:803 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts13.wav
+23:34:58:410 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts14.wav
+23:35:10:904 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts15.wav
+23:35:44:546 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts16.wav
+23:35:51:642 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts17.wav
+23:36:9:357 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts18.wav
+va:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:215)
+	... 21 more
+java.io.FileNotFoundException: https://api.voicerss.org/?key=4f232ef422b8492abeeedf7f8ef038b6&f=48khz_16bit_stereo&hl=en-us&src=Liste+des+commandes+DiamsBot+%3A+%0A%3Ejudas+%3A+rename+a+player+with+offensive+names.+Usage%3A+%3Ejudas+%3CMemberName%3E%2F-pause%2F+%3C-add%2F-clear%2F-list+%3C-name%2F-adj%3E%3E%2F+-addDefault%0A%3Ehelp+%3A+show+the+help.+Usage%3A+%3Ehelp%0A%3Ememe+%3A+show+a+random+meme.+Usage%3A+%3Ememe+%3Csubreddit%3E%0A%3Ewordbind+%3A+bind+an+image+to+a+setence+or+word.+Usage%3A+%3Ewordbind+%3Cwords%3E+%3E+%3Curl%2Fwords%2Femote%3E+%2F%3Ewordbind+list%0A%3Evoicebind+%3A+bind+an+audio+file+to+a+sentence+or+a+word.+Usage%3A+%3Evoicebind+%3Cwords%3E+%3E+%3Curl%3E+%2F%3Ewordbind+list%0A%3EIFuck+%3A+fuck+up+colors+of+a+passed+image.+Usage%3A+%3Eifuck+%3Cimglink%3E%0A%3Efact+%3A+give+you+a+random+fact.+Usage%3A+%3Efact%0A%3Eroll+%3A+roll+a+dice%21.+Usage%3A+%3Eroll%0A%3Ewizz+%3A+do+a+annoying+wizz.+Usage%3A+%3Ewizz+%3Cusername%3E%0A%3Elol+%3A+League+Of+legends+infos%21.+Usage%3A+%3Elol+%3CPseudo+Lol%3E%0A%3Ehell+%3A+mix+profiles+of+members.+Usage%3A+%3Ehell+%3Cuser1%3E+%3Cuser2%3E+%3Cuser3%3E...%0A%3Epokedex+%3A+give+infos+on+a+pokemon%21.+Usage%3A+%3Epokedex+%3CPokemon+Name%3E%0A%3Ecyanide+%3A+show+a+random+Cyanide+And+Hapiness+Comics.+Usage%3A+%3Ecyanide%0A%3Etts+%3A+say+something+to+somone+somewhere.+Usage%3A+%3Etts+%3Cuser%3E+%3Clang+%28optional%29%3E+%3Ctext+to+say%3E+%2F%3Etts+-langs%2F-skip%2F-clear%2F-defaultLang%0A%3Eop+%3A+remplacement+du+canard.+Usage%3A+%3Eop+%3CUser%3E%0A%3Eperms+%3A+used+to+change+permissions+of+each+commands.+Usage%3A+%3Eperms+set+%3Ccommand%3E+%3Cowner%2Fadmin%2Fall%3E+or+%28only%2Fbelow+%3Ca+role%3E%29%0A%3Etriggered+%3A+Create+a+gif+from+an+image+with+a+description+text.+Usage%3A+%3Etrigg+%3Cimage+url%3E+%28%3Ctext%3E+%3CTextColor%3E+%3CpictureColor%3E+%29%0A%0A+Liste+des+actions+DiamsBot+%3A+%0A%27Is+This%27+generator+%3D%3E+%5Bpseudo%5D+%7C+%28%5Burl%5D+%5BTitle%5D%29+%3E+Is+This+%5Btext%5D%0AWord+to+Image+Binder+%3D%3E+Use+%3EwordBind+command+to+bind+a+image+to+a+phrase%0AWord+to+Voice+Binder+%3D%3E+Use+%3Ewordvoice+command+to+bind+a+word+or+sentence+to+a+audio+file+or+link%0AChatBot+%3D%3E+Start+your+message+by+notifing+the+bot+%28%3C%40%21519224623523692577%3E%29+with+a+message+and+he+will+respond
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at diamssword.bot.audio.TTS.TextToSpeechBot.speak(TextToSpeechBot.java:38)
+	at diamssword.bot.commands.TTSCmd.execute(TTSCmd.java:118)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:62)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+23:31:38:823 [DiamsBot-Audio] WARNING : diamssword.bot.audio.GPlayerManager$1 : Source can't be loaded: C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts2.wav
+[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at diamssword.bot.commands.TTSCmd.execute(TTSCmd.java:102)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:62)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at diamssword.bot.commands.TTSCmd.execute(TTSCmd.java:102)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:62)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)

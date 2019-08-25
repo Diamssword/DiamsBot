@@ -1,0 +1,83 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+java.lang.NullPointerException
+	at diamssword.bot.permissions.PermManager.canUse(PermManager.java:132)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:51)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread1:8:34:706 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts0.wav
+1:9:8:271 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts1.wav
+1:9:8:771 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Docum[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+java.lang.UnsupportedOperationException: Cannot send a private message between bots.
+	at net.dv8tion.jda.core.entities.impl.PrivateChannelImpl.checkBot(PrivateChannelImpl.java:211)
+	at net.dv8tion.jda.core.entities.impl.PrivateChannelImpl.sendMessage(PrivateChannelImpl.java:143)
+	at diamssword.bot.commands.ThanosCmd.execute(ThanosCmd.java:69)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:62)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+java.lang.NullPointerException
+	at diamssword.bot.actions.WordImgAction.getTriggers(WordImgAction.java:55)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:78)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+java.lang.NullPointerException
+	at diamssword.bot.actions.WordImgAction.getTriggers(WordImgAction.java:55)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:78)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)

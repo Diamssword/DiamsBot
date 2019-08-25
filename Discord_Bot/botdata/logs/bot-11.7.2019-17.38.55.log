@@ -1,0 +1,19 @@
+17:38:56:192 [DiamsBot-Registry] INFO : Registering new Command: judas
+17:38:56:195 [DiamsBot-Registry] INFO : Registering new Command: help
+17:38:56:198 [DiamsBot-Registry] INFO : Registering new Command: meme
+17:38:56:200 [DiamsBot-Registry] INFO : Registering new Command: wordbind
+17:38:56:216 [DiamsBot-Registry] INFO : Registering new Command: voicebind
+17:38:56:219 [DiamsBot-Registry] INFO : Registering new Command: IFuck
+17:38:56:223 [DiamsBot-Registry] INFO : Registering new Command: fact
+17:38:56:226 [DiamsBot-Registry] INFO : Registering new Command: roll
+17:38:56:229 [DiamsBot-Registry] INFO : Registering new Command: wizz
+17:38:56:230 [DiamsBot-Registry] INFO : Registering new Command: lol
+17:38:56:231 [DiamsBot-Registry] INFO : Registering new Command: hell
+17:38:56:232 [DiamsBot-Registry] INFO : Registering new Command: pokedex
+17:38:56:233 [DiamsBot-Registry] INFO : Registering new Command: cyanide
+17:38:56:234 [DiamsBot-Registry] INFO : Registering new Command: tts
+17:38:56:235 [DiamsBot-Registry] INFO : Registering new Command: triggered
+17:38:56:236 [DiamsBot-Registry] INFO : Registering new Action: 'Is This' generator
+17:38:56:237 [DiamsBot-Registry] INFO : Registering new Action: Word to Image Binder
+17:38:56:238 [DiamsBot-Registry] INFO : Registering new Action: Word to Voice Binder
+17:38:56:244 [DiamsBot-Registry] INFO : Registering new Action: ChatBot

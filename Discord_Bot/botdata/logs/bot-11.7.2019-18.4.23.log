@@ -1,0 +1,18 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at diamssword.bot.storage.savable.WordImgSavable.fromText(WordImgSavable.java:25)
+	at diamssword.bot.storage.savable.WordImgSavable.fromText(WordImgSavable.java:1)
+	at com.diamssword.bot.api.actions.storage.AGuildStorage.load(AGuildStorage.java:81)
+	at diamssword.bot.storage.Storage.init(Storage.java:33)
+	at diamssword.bot.Main.main(Main.java:71)
+iamsBot-Main] INFO : diamssword.bot.Main : --Loading Commands--
+18:4:26:128 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:4:26:129 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Stored Datas for each guilds--

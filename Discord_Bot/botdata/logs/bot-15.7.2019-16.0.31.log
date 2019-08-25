@@ -1,0 +1,42 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+java.lang.UnsupportedOperationException: Attempted to serialize java.lang.Class: com.diamssword.bot.api.storage.JsonSavable. Forgot to register a type adapter?
+	at com.google.gson.internal.bind.TypeAdapters$1.write(TypeAdapters.java:73)
+	at com.google.gson.internal.bind.TypeAdapters$1.write(TypeAdapters.java:69)
+	at com.google.gson.TypeAdapter$1.write(TypeAdapter.java:191)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:127)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:245)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:127)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:245)
+	at com.google.gson.internal.bind.Obj16:1:59:691 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts0.wav
+gson.Gson.toJson(Gson.java:638)
+	at com.diamssword.bot.api.storage.JsonSavable.toText(JsonSavable.java:31)
+	at com.diamssword.bot.api.storage.AGuildStorage.save(AGuildStorage.java:110)
+	at diamssword.bot.permissions.PermManager.addPerm(PermManager.java:57)
+	at diamssword.bot.commands.PermCmd.execute(PermCmd.java:63)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:62)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)

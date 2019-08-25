@@ -1,0 +1,24 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+Exception in thread "Thread-5" java.lang.NullPointerException
+	at diamssword.bot.InternalPlugin.tickSingle(InternalPlugin.java:56)
+	at diamssword.bot.tickable.Tickable$1.run(Tickable.java:31)
+	at java.lang.Thread.run(Thread.java:748)
+1:38:4:164 [DiamsBot-Main] INFO : diamssword.bot.Main : --Init Plugins--
+11:38:4:207 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Commands--
+11:38:4:245 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+11:38:4:246 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Stored Datas for each guilds--
+11:38:4:311 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+11:38:4:312 [DiamsBot-Main] INFO : diamssword.bot.Main : --Clearing Caches--
+11:38:4:317 [DiamsBot-Main] INFO : diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+11:38:4:319 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+11:38:4:321 [DiamsBot-Main] INFO : diamssword.bot.Main : --Initing ticking Thread--
+11:38:4:324 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+11:38:4:325 [DiamsBot-Main] INFO : diamssword.bot.Main : --PostInit Plugins--

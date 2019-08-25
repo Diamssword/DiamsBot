@@ -1,0 +1,18 @@
+18:4:26:132 [DiamsBot-Storage] INFO : Loaded GuildStorage:JudasSavable for Le domaine des dieux !'s guild!
+18:4:26:138 [DiamsBot-Storage] INFO : Loaded GuildStorage:JudasSavableWords for Le domaine des dieux !'s guild!
+18:4:26:145 [DiamsBot-Storage] INFO : Loaded GuildStorage:TTSSavable for Le domaine des dieux !'s guild!
+ring new Command: voicebind
+18:4:26:104 [DiamsBot-Registry] INFO : Registering new Command: IFuck
+18:4:26:106 [DiamsBot-Registry] INFO : Registering new Command: fact
+18:4:26:109 [DiamsBot-Registry] INFO : Registering new Command: roll
+18:4:26:111 [DiamsBot-Registry] INFO : Registering new Command: wizz
+18:4:26:113 [DiamsBot-Registry] INFO : Registering new Command: lol
+18:4:26:114 [DiamsBot-Registry] INFO : Registering new Command: hell
+18:4:26:116 [DiamsBot-Registry] INFO : Registering new Command: pokedex
+18:4:26:117 [DiamsBot-Registry] INFO : Registering new Command: cyanide
+18:4:26:118 [DiamsBot-Registry] INFO : Registering new Command: tts
+18:4:26:120 [DiamsBot-Registry] INFO : Registering new Command: triggered
+18:4:26:121 [DiamsBot-Registry] INFO : Registering new Action: 'Is This' generator
+18:4:26:122 [DiamsBot-Registry] INFO : Registering new Action: Word to Image Binder
+18:4:26:124 [DiamsBot-Registry] INFO : Registering new Action: Word to Voice Binder
+18:4:26:126 [DiamsBot-Registry] INFO : Registering new Action: ChatBot

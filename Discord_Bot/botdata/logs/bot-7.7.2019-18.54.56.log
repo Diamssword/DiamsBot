@@ -1,0 +1,27 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-WriteThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+[JDA MainWS-WriteThread] WARN WebSocketClient - Got disconnected from WebSocket. Attempting to resume session
+[JDA MainWS-ReadThread] INFO JDA - Successfully resumed Session!
+[JDA MainWS-WriteThread] WARN WebSocketClient - Got disconnected from WebSocket. Attempting to resume session
+[JDA MainWS-ReadThread] INFO JDA - Successfully resumed Session!
+ [DiamsBot-Main] INFO : diamssword.bot.Main : --Init Plugins--
+18:55:13:672 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Commands--
+18:55:13:726 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:55:13:727 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Stored Datas for each guilds--
+18:55:13:841 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:55:13:844 [DiamsBot-Main] INFO : diamssword.bot.Main : --Clearing Caches--
+18:55:13:851 [DiamsBot-Main] INFO : diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+18:55:13:854 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:55:13:855 [DiamsBot-Main] INFO : diamssword.bot.Main : --Initing ticking Thread--
+18:55:13:858 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:55:13:858 [DiamsBot-Main] INFO : diamssword.bot.Main : --PostInit Plugins--
+18:55:40:822 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing https://img-9gag-fun.9cache.com/photo/aQ1PnV2_460svvp9.webm
+19:5:14:244 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing https://img-9gag-fun.9cache.com/photo/aQ1PnV2_460svvp9.webm
+19:34:39:708 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing https://img-9gag-fun.9cache.com/photo/aQ1PnV2_460svvp9.webm

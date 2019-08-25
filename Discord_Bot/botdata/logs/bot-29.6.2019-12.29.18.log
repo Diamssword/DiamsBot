@@ -1,0 +1,56 @@
+juil. 29, 2019 12:29:22 PM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+juil. 29, 2019 12:29:22 PM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+juil. 29, 2019 12:29:22 PM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-WriteThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+juil. 29, 2019 12:29:36 PM NewCommand init
+INFOS: Initializing NewCommand
+juil. 29, 2019 12:29:36 PM NewCommand init
+INFOS: Initializing NewCommand
+juil. 29, 2019 12:29:36 PM NewCommand init
+INFOS: Initializing NewCommand
+juil. 29, 2019 12:29:37 PM Main postInit
+GRAVE: Tout est lancé Chef!
+juil. 29, 2019 12:29:37 PM Main postInit
+GRAVE: Tout est lancé Chef!
+juil. 29, 2019 12:29:37 PM Main postInit
+GRAVE: Tout est lancé Chef!
+12:29:36:671 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+12:29:36:676 [DiamsBot-Main] INFO  diamssword.bot.Main : --Loading Stored Datas for each guilds--
+12:29:36:694 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Le domaine des dieux !'s guild!
+12:29:36:719 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Le domaine des dieux !'s guild!
+12:29:36:750 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Le domaine des dieux !'s guild!
+12:29:36:774 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Le domaine des dieux !'s guild!
+12:29:36:785 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Le domaine des dieux !'s guild!
+12:29:36:802 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for La Secte d'Olüm's guild!
+12:29:36:816 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for La Secte d'Olüm's guild!
+12:29:36:832 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for La Secte d'Olüm's guild!
+12:29:36:844 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for La Secte d'Olüm's guild!
+12:29:36:862 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for La Secte d'Olüm's guild!
+12:29:36:875 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Jumpers's guild!
+12:29:36:887 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Jumpers's guild!
+12:29:36:899 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Jumpers's guild!
+12:29:36:909 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Jumpers's guild!
+12:29:36:920 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Jumpers's guild!
+12:29:36:935 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Les dégénérés's guild!
+12:29:36:952 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Les dégénérés's guild!
+12:29:36:971 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Les dégénérés's guild!
+12:29:36:984 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Les dégénérés's guild!
+12:29:37:2 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded class com.diamssword.bot.api.actions.storage.GuildStorage for Les dégénérés's guild!
+12:29:37:13 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+12:29:37:19 [DiamsBot-Main] INFO  diamssword.bot.Main : --Clearing Caches--
+12:29:37:37 [DiamsBot-Main] INFO  diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+12:29:37:39 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+12:29:37:45 [DiamsBot-Main] INFO  diamssword.bot.Main : --Initing ticking Thread--
+12:29:37:49 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+12:29:37:56 [DiamsBot-Main] INFO  diamssword.bot.Main : --PostInit Plugins--

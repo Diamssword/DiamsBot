@@ -1,0 +1,28 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-WriteThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+Exception in thread "Thread-5" java.lang.NullPointerException
+	at net.dv8tion.jda.core.entities.impl.GuildImpl.getMember(GuildImpl.java:297)
+	at diamssword.bot.commands.JudasCmd.tick(JudasCmd.java:230)
+	at diamssword.bot.tickable.Tickable$1.run(Tickable.java:33)
+	at java.lang.Thread.run(Thread.java:748)
+s--
+18:56:35:762 [DiamsBot-Main] INFO : diamssword.bot.Main : --Init PermissionManager--
+18:56:35:764 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Commands--
+18:56:35:809 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:56:35:810 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Stored Datas for each guilds--
+18:56:35:881 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:56:35:882 [DiamsBot-Main] INFO : diamssword.bot.Main : --Clearing Caches--
+18:56:35:887 [DiamsBot-Main] INFO : diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+18:56:35:888 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:56:35:889 [DiamsBot-Main] INFO : diamssword.bot.Main : --Initing ticking Thread--
+18:56:35:891 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:56:35:892 [DiamsBot-Main] INFO : diamssword.bot.Main : --PostInit Plugins--
+18:58:19:126 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts0.wav
+18:58:20:237 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts1.wav

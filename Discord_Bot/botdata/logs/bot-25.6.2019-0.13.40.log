@@ -1,0 +1,41 @@
+0:13:41:112 [DiamsBot-Main] INFO  diamssword.bot.Main : --Searching for Plugins--
+0:13:41:121 [DiamsBot-Main] INFO  diamssword.bot.plugins.LoadPlugins : Found a Plugin!   ID: Diams_bot_plugin2    Name:DiamsBot Second Plugin
+0:13:41:127 [DiamsBot-Main] INFO  diamssword.bot.plugins.LoadPlugins : Found a Plugin!   ID: Diams_bot_plugin1    Name:DiamsBot First Plugin
+0:13:41:130 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+0:13:41:132 [DiamsBot-Main] INFO  diamssword.bot.Main : --PreInit Plugins--
+0:13:41:143 [DiamsBot-Main] INFO  diamssword.bot.Main : --Loading Old Save Systeme (to be removed!!)--
+0:13:41:207 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+0:13:41:209 [DiamsBot-Main] INFO  diamssword.bot.Main : --Building and loading DiamsBot--
+0:13:43:304 [DiamsBot-Main] INFO  diamssword.bot.Main : --Creating Storage and audioManager instance--
+0:13:43:364 [DiamsBot-Main] INFO  diamssword.bot.Main : ...DONE!!
+0:13:43:366 [DiamsBot-Main] INFO  diamssword.bot.Main : --Init Plugins--
+0:13:43:369 [DiamsBot-Main] INFO  diamssword.bot.Main : --Loading Commands--
+0:13:43:388 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+0:13:43:390 [DiamsBot-Main] INFO  diamssword.bot.Main : --Loading Stored Datas for each guilds--
+0:13:43:392 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for Le domaine des dieux !'s guild!
+0:13:43:398 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for Le domaine des dieux !'s guild!
+0:13:43:404 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for Le domaine des dieux !'s guild!
+0:13:43:405 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for Le domaine des dieux !'s guild!
+0:13:43:407 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for Le domaine des dieux !'s guild!
+0:13:43:408 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for La Secte d'Olüm's guild!
+0:13:43:409 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for La Secte d'Olüm's guild!
+0:13:43:411 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for La Secte d'Olüm's guild!
+0:13:43:413 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for La Secte d'Olüm's guild!
+0:13:43:415 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for La Secte d'Olüm's guild!
+0:13:43:416 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for Jumpers's guild!
+0:13:43:417 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for Jumpers's guild!
+0:13:43:419 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for Jumpers's guild!
+0:13:43:420 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for Jumpers's guild!
+0:13:43:422 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for Jumpers's guild!
+0:13:43:424 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for Les dégénérés's guild!
+0:13:43:427 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for Les dégénérés's guild!
+0:13:43:430 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for Les dégénérés's guild!
+0:13:43:432 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for Les dégénérés's guild!
+0:13:43:435 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for Les dégénérés's guild!
+0:13:43:437 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+0:13:43:437 [DiamsBot-Main] INFO  diamssword.bot.Main : --Clearing Caches--
+0:13:43:443 [DiamsBot-Main] INFO  diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+0:13:43:444 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+0:13:43:445 [DiamsBot-Main] INFO  diamssword.bot.Main : --Initing ticking Thread--
+0:13:43:446 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+0:13:43:447 [DiamsBot-Main] INFO  diamssword.bot.Main : --PostInit Plugins--

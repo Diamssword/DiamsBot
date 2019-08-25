@@ -1,0 +1,19 @@
+19:43:36:60 [PluginLoader] SEVERE : LoadPlugins : Found a Duplicated Plugin ID!   ID: diamsbot_internal    Names:DiamsBot Internal Plugin/DiamsBot Internal Plugin
+19:43:36:65 [PluginLoader] SEVERE : LoadPlugins : K19:43:36:114 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+19:43:36:116 [DiamsBot-Main] INFO : diamssword.bot.Main : --PreInit Plugins--
+19:43:36:122 [DiamsBot-Main] INFO : diamssword.bot.SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF19:43:38:199 [DiamsBot-Main] INFO : diamssword.bot.Main : --Creating Storage and audioManager instance--
+19:43:38:271 [DiamsBot-Main] INFO : diamssword.bot.Main : ...DONE!!
+19:43:38:272 [DiamsBot-Main] INFO : diamssword.bot.Main : --Init Plugins--
+19:43:38:279 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Commands--
+19:43:38:316 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+19:43:38:317 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Stored Datas for each guilds--
+19:43:38:374 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+19:43:38:377 [DiamsBot-Main] INFO : diamssword.bot.Main : --Clearing Caches--
+19:43:38:383 [DiamsBot-Main] INFO : diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+19:43:38:385 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+19:43:38:386 [DiamsBot-Main] INFO : diamssword.bot.Main : --Initing ticking Thread--
+19:43:38:387 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+19:43:38:388 [DiamsBot-Main] INFO : diamssword.bot.Main : --PostInit Plugins--

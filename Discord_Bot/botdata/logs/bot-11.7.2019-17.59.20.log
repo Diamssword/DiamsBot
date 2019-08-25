@@ -1,0 +1,21 @@
+17:59:21:104 [DiamsBot-Main] INFO : diamssword.bot.Main : --Searching for Plugins--
+17:59:21:112 [PluginLoader] INFO : LoadPlugins : Loading internal plugin!   ID: diamsbot_internal    Name:DiamsBot Internal Plugin
+17:59:21:172 [PluginLoader] INFO : LoadPlugins : Found a Plugin!   ID: DiamsBot_Extended    Name:DiamsBot Extended Functions Plugin
+17:59:21:179 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+17:59:21:181 [DiamsBot-Main] INFO : diamssword.bot.Main : --PreInit Plugins--
+17:59:21:184 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Old Save Systeme (to be removed!!)--
+17:59:21:249 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+17:59:21:251 [DiamsBot-Main] INFO : diamssword.bot.Main : --Building and loading DiamsBot--
+17:59:26:898 [DiamsBot-Main] INFO : diamssword.bot.Main : --Creating Storage and audioManager instance--
+17:59:26:964 [DiamsBot-Main] INFO : diamssword.bot.Main : ...DONE!!
+17:59:26:965 [DiamsBot-Main] INFO : diamssword.bot.Main : --Init Plugins--
+17:59:26:986 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Commands--
+17:59:27:22 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+17:59:27:23 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Stored Datas for each guilds--
+17:59:27:99 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+17:59:27:100 [DiamsBot-Main] INFO : diamssword.bot.Main : --Clearing Caches--
+17:59:27:106 [DiamsBot-Main] INFO : diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+17:59:27:107 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+17:59:27:108 [DiamsBot-Main] INFO : diamssword.bot.Main : --Initing ticking Thread--
+17:59:27:110 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+17:59:27:111 [DiamsBot-Main] INFO : diamssword.bot.Main : --PostInit Plugins--

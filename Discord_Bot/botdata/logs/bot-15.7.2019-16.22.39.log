@@ -1,0 +1,22 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+java.lang.InstantiationException: diamssword.bot.permissions.PermManager$PermSavable
+	at java.lang.Class.newInstance(Class.java:427)
+	at com.diamssword.bot.api.storage.GuildStorage.init(GuildStorage.java:23)
+	at diamssword.bot.storage.Storage.init(Storage.java:33)
+	at diamssword.bot.Main.main(Main.java:72)
+Caused by: java.lang.NoSuchMethodException: diamssword.bot.permissions.PermManager$PermSavable.<init>()
+	at java.lang.Class.getConstructor0(Class.java:3082)
+	at java.lang.Class.newInstance(Class.java:412)
+	... 3 more
+Exception in thread "main" java.lang.NullPointerException
+	at com.diamssword.bot.api.storage.AGuildStorage.load(AGuildStorage.java:74)
+	at diamssword.bot.storage.Storage.init(Storage.java:34)
+	at diamssword.bot.Main.main(Main.java:72)

@@ -1,0 +1,21 @@
+juil. 25, 2019 12:13:41 AM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+juil. 25, 2019 12:13:41 AM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+juil. 25, 2019 12:13:43 AM NewCommand init
+INFOS: Initializing NewCommand
+juil. 25, 2019 12:13:43 AM NewCommand init
+INFOS: Initializing NewCommand
+juil. 25, 2019 12:13:43 AM Main postInit
+GRAVE: Tout est lancé Chef!
+juil. 25, 2019 12:13:43 AM Main postInit
+GRAVE: Tout est lancé Chef!

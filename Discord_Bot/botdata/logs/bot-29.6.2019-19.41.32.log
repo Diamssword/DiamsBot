@@ -1,0 +1,53 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+java.lang.NumberFormatException: Zero length string
+	at java.lang.Integer.decode(Integer.java:1162)
+	at java.awt.Color.decode(Color.java:729)
+	at com.DiamsBotExtended.commands.TrigCmd.castColor(TrigCmd.java:165)
+	at com.DiamsBotExtended.commands.TrigCmd.execute(TrigCmd.java:84)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:56)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+[JDA MainWS-ReadThread] ERROR JDA - One of the EventListeners had an uncaught exception
+java.lang.NumberFormatException: Zero length string
+	at java.lang.Integer.decode(Integer.java:1162)
+	at java.awt.Color.decode(Color.java:729)
+	at com.DiamsBotExtended.commands.TrigCmd.castColor(TrigCmd.java:165)
+	at com.DiamsBotExtended.commands.TrigCmd.execute(TrigCmd.java:84)
+	at diamssword.bot.BotEventsHandler.onMessageReceived(BotEventsHandler.java:56)
+	at net.dv8tion.jda.core.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:411)
+	at net.dv8tion.jda.core.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:84)
+	at net.dv8tion.jda.core.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:127)
+	at net.dv8tion.jda.core.handle.SocketHandler.handle(SocketHandler.java:37)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onDispatch(WebSocketClient.java:868)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onEvent(WebSocketClient.java:766)
+	at net.dv8tion.jda.core.requests.WebSocketClient.handleEvent(WebSocketClient.java:745)
+	at net.dv8tion.jda.core.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:903)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:368)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:270)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:990)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:749)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)

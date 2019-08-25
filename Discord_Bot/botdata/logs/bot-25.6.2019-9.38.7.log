@@ -1,0 +1,68 @@
+9:38:7:238 [DiamsBot-Main] SEVERE  diamssword.bot.plugins.LoadPlugins : Found a Duplicated Plugin ID!   ID: Diams_bot_plugin2    Names:DiamsBot Second Plugin/DiamsBot Second Plugin
+9:38:7:241 [DiamsBot-Main] SEVERE  diamssword.bot.plugins.LoadPlugins : Keeping the plugin instance from: class Main   The new one : class Main (In the jar file 'botdata\plugins\DiamsBotPlugin-1.9:38:7:245 [DiamsBot-Main]juil. 25, 2019 9:38:07 AM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+juil. 25, 2019 9:38:07 AM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.9:38:9:280 [DiamsBot-Main] INFO  diamssword.bot.Main : --Creating Storage and audioManager instance--
+9:38:9:343 [DiamsBot-Main] INFO  diamssword.bot.Main : ...DONE!!
+9:38:9:344 [DiamsBot-Main] INFO  diamssword.bot.Maijuil. 25, 2019 9:38:09 AM NewCommand init
+INFOS: Initializing NewCommand
+juil. 25, 2019 9:38:09 AM NewCommand init
+INFOS: Initializing NewCommand
+juil. 25, 2019 9:38:09 AM Main postInit
+GRAVE: Tout est lancé Chef!
+juil. 25, 2019 9:38:09 AM Main postInit
+GRAVE: Tout est lancé Chef!
+istering new Command: help
+9:38:9:364 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: meme
+9:38:9:366 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: wordbind
+9:38:9:367 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: voicebind
+9:38:9:370 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: IFuck
+9:38:9:371 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: fact
+9:38:9:373 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: roll
+9:38:9:374 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: wizz
+9:38:9:378 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: lol
+9:38:9:379 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: hell
+9:38:9:381 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: pokedex
+9:38:9:383 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: cyanide
+9:38:9:386 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: tts
+9:38:9:387 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: plugin
+9:38:9:391 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Command: plugin
+9:38:9:395 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Action: 'Is This' generator
+9:38:9:396 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Action: Word to Image Binder
+9:38:9:397 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Action: Word to Voice Binder
+9:38:9:399 [DiamsBot-Registry] INFO  com.diamssword.bot.api.actions.Registry : Registering new Action: ChatBot
+9:38:9:400 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+9:38:9:401 [DiamsBot-Main] INFO  diamssword.bot.Main : --Loading Stored Datas for each guilds--
+9:38:9:404 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for Le domaine des dieux !'s guild!
+9:38:9:415 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for Le domaine des dieux !'s guild!
+9:38:9:424 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for Le domaine des dieux !'s guild!
+9:38:9:426 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for Le domaine des dieux !'s guild!
+9:38:9:428 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for Le domaine des dieux !'s guild!
+9:38:9:431 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for La Secte d'Olüm's guild!
+9:38:9:433 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for La Secte d'Olüm's guild!
+9:38:9:435 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for La Secte d'Olüm's guild!
+9:38:9:437 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for La Secte d'Olüm's guild!
+9:38:9:439 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for La Secte d'Olüm's guild!
+9:38:9:442 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for Jumpers's guild!
+9:38:9:444 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for Jumpers's guild!
+9:38:9:446 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for Jumpers's guild!
+9:38:9:448 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for Jumpers's guild!
+9:38:9:450 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for Jumpers's guild!
+9:38:9:452 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for Les dégénérés's guild!
+9:38:9:455 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for Les dégénérés's guild!
+9:38:9:456 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for Les dégénérés's guild!
+9:38:9:458 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for Les dégénérés's guild!
+9:38:9:460 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for Les dégénérés's guild!
+9:38:9:461 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+9:38:9:463 [DiamsBot-Main] INFO  diamssword.bot.Main : --Clearing Caches--
+9:38:9:468 [DiamsBot-Main] INFO  diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+9:38:9:469 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+9:38:9:470 [DiamsBot-Main] INFO  diamssword.bot.Main : --Initing ticking Thread--
+9:38:9:473 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+9:38:9:474 [DiamsBot-Main] INFO  diamssword.bot.Main : --PostInit Plugins--

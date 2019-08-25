@@ -1,0 +1,49 @@
+0:32:26:578 [DiamsBot-Main] SEVERE  diamssword.bot.plugins.LoadPlugins : Found a Duplicated Plugin ID!   ID: Diams_bot_plugin2    Names:DiamsBot Second Plugin/DiamsBot Second Plugin
+0:32:26:580 [DiamsBot-Main] SEVERE  diamssword.bot.plugins.LoadPlugins : Keeping the plugin instance from: Main   The new one (Main) won't be loaded!
+juil. 25, 2019 12:32:26 AM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+juil. 25, 2019 12:32:26 AM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - 0:32:29:136 [DiamsBot-Main] INFO  diamssword.bot.Main : --Creating Storage and audioManager instance--
+0:32:29:200 [DiamsBot-Main] INFO  diamssjuil. 25, 2019 12:32:29 AM NewCommand init
+INFOS: Initializing NewCommand
+juil. 25, 2019 12:32:29 AM NewCommand init
+INFOS: Initializing NewCommand
+juil. 25, 2019 12:32:29 AM Main postInit
+GRAVE: Tout est lancé Chef!
+juil. 25, 2019 12:32:29 AM Main postInit
+GRAVE: Tout est lancé Chef!
+in : --Loading Stored Datas for each guilds--
+0:32:29:228 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for Le domaine des dieux !'s guild!
+0:32:29:239 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for Le domaine des dieux !'s guild!
+0:32:29:246 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for Le domaine des dieux !'s guild!
+0:32:29:248 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for Le domaine des dieux !'s guild!
+0:32:29:250 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for Le domaine des dieux !'s guild!
+0:32:29:250 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for La Secte d'Olüm's guild!
+0:32:29:252 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for La Secte d'Olüm's guild!
+0:32:29:254 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for La Secte d'Olüm's guild!
+0:32:29:255 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for La Secte d'Olüm's guild!
+0:32:29:257 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for La Secte d'Olüm's guild!
+0:32:29:259 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for Jumpers's guild!
+0:32:29:260 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for Jumpers's guild!
+0:32:29:261 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for Jumpers's guild!
+0:32:29:263 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for Jumpers's guild!
+0:32:29:264 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for Jumpers's guild!
+0:32:29:266 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavable for Les dégénérés's guild!
+0:32:29:268 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:JudasSavableWords for Les dégénérés's guild!
+0:32:29:270 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:TTSSavable for Les dégénérés's guild!
+0:32:29:272 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordImgSavable for Les dégénérés's guild!
+0:32:29:274 [DiamsBot-Main] INFO  diamssword.bot.storage.Storage : Loaded GuildStorage:WordVoiceSavable for Les dégénérés's guild!
+0:32:29:276 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+0:32:29:278 [DiamsBot-Main] INFO  diamssword.bot.Main : --Clearing Caches--
+0:32:29:285 [DiamsBot-Main] INFO  diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+0:32:29:287 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+0:32:29:288 [DiamsBot-Main] INFO  diamssword.bot.Main : --Initing ticking Thread--
+0:32:29:289 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+0:32:29:290 [DiamsBot-Main] INFO  diamssword.bot.Main : --PostInit Plugins--

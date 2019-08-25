@@ -1,0 +1,15 @@
+juil. 25, 2019 1:06:57 AM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+juil. 25, 2019 1:06:57 AM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+juil. 25, 2019 1:06:57 AM Main preInit
+GRAVE: Mon PLUGIN est reveillé!
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+s : Found a Plugin!   ID: Diams_bot_plugin1    Name:DiamsBot First Plugin
+1:6:57:396 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+1:6:57:408 [DiamsBot-Main] INFO  diamssword.bot.Main : --PreInit Plugins--
+1:6:57:548 [DiamsBot-Main] INFO  diamssword.bot.Main : --Loading Old Save Systeme (to be removed!!)--
+1:6:57:797 [DiamsBot-Main] INFO  diamssword.bot.Main : ...Done!
+1:6:57:806 [DiamsBot-Main] INFO  diamssword.bot.Main : --Building and loading DiamsBot--

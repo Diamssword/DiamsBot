@@ -1,0 +1,27 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+be removed!!)--
+18:52:43:220 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:52:43:221 [DiamsBot-Main] INFO : diamssword.bot.Main : --Building and loading DiamsBot--
+18:52:54:933 [DiamsBot-Main] INFO : diamssword.bot.Main : --Creating Storage and audioManager instance--
+18:52:58:406 [DiamsBot-Main] INFO : diamssword.bot.Main : ...DONE!!
+18:52:58:407 [DiamsBot-Main] INFO : diamssword.bot.Main : --Init Plugins--
+18:52:58:430 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Commands--
+18:52:58:473 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:52:58:477 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Stored Datas for each guilds--
+18:52:58:620 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:52:58:621 [DiamsBot-Main] INFO : diamssword.bot.Main : --Clearing Caches--
+18:52:58:626 [DiamsBot-Main] INFO : diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+18:52:58:627 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:52:58:628 [DiamsBot-Main] INFO : diamssword.bot.Main : --Initing ticking Thread--
+18:52:58:630 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+18:52:58:632 [DiamsBot-Main] INFO : diamssword.bot.Main : --PostInit Plugins--
+21:13:17:696 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts0.wav
+21:15:41:854 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts1.wav

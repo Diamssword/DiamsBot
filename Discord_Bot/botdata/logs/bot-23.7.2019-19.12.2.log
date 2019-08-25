@@ -1,0 +1,28 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+[ForkJoinPool.commonPool-worker-2] ERROR RestAction - RestAction queue returned failure: [ErrorResponseException] 40005: Request entity too large
+r instance--
+19:12:5:116 [DiamsBot-Main] INFO : diamssword.bot.Main : ...DONE!!
+19:12:5:117 [DiamsBot-Main] INFO : diamssword.bot.Main : --Init Plugins--
+19:12:5:175 [DiamsBot-Main] INFO : diamssword.bot.Main : --Init PermissionManager--
+19:12:5:177 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Commands--
+19:12:5:228 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+19:12:5:229 [DiamsBot-Main] INFO : diamssword.bot.Main : --Loading Stored Datas for each guilds--
+19:12:5:303 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+19:12:5:304 [DiamsBot-Main] INFO : diamssword.bot.Main : --Clearing Caches--
+19:12:5:312 [DiamsBot-Main] INFO : diamssword.bot.audio.TTS.TextToSpeechBot : Cleared TTSCache
+19:12:5:313 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+19:12:5:314 [DiamsBot-Main] INFO : diamssword.bot.Main : --Initing ticking Thread--
+19:12:5:317 [DiamsBot-Main] INFO : diamssword.bot.Main : ...Done!
+19:12:5:318 [DiamsBot-Main] INFO : diamssword.bot.Main : --PostInit Plugins--
+19:17:14:828 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts0.wav
+19:21:53:444 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts1.wav
+21:45:0:621 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts2.wav
+21:45:22:955 [DiamsBot-Audio] INFO : diamssword.bot.audio.GuildPlayer : Queuing C:\Users\Diamssword\Documents\java_project\Discord_Bot\botdata\ttsCache\tts3.wav

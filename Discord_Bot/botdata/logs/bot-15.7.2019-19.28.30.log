@@ -1,0 +1,36 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SLF4J: Failed to load class "org.slf4j.impl.StaticMDCBinder".
+SLF4J: Defaulting to no-operation MDCAdapter implementation.
+SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further details.
+[main] INFO JDA - Login Successful!
+[JDA MainWS-ReadThread] INFO WebSocketClient - Connected to WebSocket
+[JDA MainWS-ReadThread] INFO JDA - Finished Loading!
+Exception in thread "main" java.lang.RuntimeException: Unable to invoke no-args constructor for interface net.dv8tion.jda.core.entities.Role. Registering an InstanceCreator with Gson for this type may fix this problem.
+	at com.google.gson.internal.ConstructorConstructor$14.construct(ConstructorConstructor.java:228)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:212)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:2<@&610141681177723064>
+.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:82)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:187)
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:131)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:222)
+	at com.google.gson.Gson.fromJson(Gson.java:927)
+	at com.google.gson.Gson.fromJson(Gson.java:892)
+	at com.google.gson.Gson.fromJson(Gson.java:841)
+	at com.google.gson.Gson.fromJson(Gson.java:813)
+	at diamssword.bot.permissions.PermManager$PermSavable.fromText(PermManager.java:162)
+	at diamssword.bot.permissions.PermManager$PermSavable.fromText(PermManager.java:1)
+	at com.diamssword.bot.api.storage.AGuildStorage.load(AGuildStorage.java:86)
+	at diamssword.bot.storage.Storage.init(Storage.java:34)
+	at diamssword.bot.Main.main(Main.java:72)
+Caused by: java.lang.UnsupportedOperationException: Interface can't be instantiated! Interface name: net.dv8tion.jda.core.entities.Role
+	at com.google.gson.internal.UnsafeAllocator.assertInstantiable(UnsafeAllocator.java:117)
+	at com.google.gson.internal.UnsafeAllocator$1.newInstance(UnsafeAllocator.java:49)
+	at com.google.gson.internal.ConstructorConstructor$14.construct(ConstructorConstructor.java:225)
+	... 20 more
