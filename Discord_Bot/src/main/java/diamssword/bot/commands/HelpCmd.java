@@ -24,7 +24,7 @@ public class HelpCmd implements ICommand{
 	public void execute(MessageReceivedEvent event, String ... args) {
 		if(!event.getAuthor().isFake())
 		{
-			if(args.length>=1)
+		/*	if(args.length>=1)
 			{
 				String sub = StringUtils.weldArgs(args, 0, args.length);
 				for(ICommand c :Registry.commands)
@@ -43,30 +43,43 @@ public class HelpCmd implements ICommand{
 						return;
 					}
 				}
+			}*/
+		
+			String[] strs = format(event, args.length>=1?args[0]:null);
+			for(String s : strs)
+			{
+				event.getChannel().sendMessage(s).queue();
 			}
-				event.getChannel().sendMessage(format(event)).queue();
 		}
 
 	}
 
 	@Override
 	public String getUsage() {
-		return ">help";
+		return ">help (name or word)";
 	}
 
-	private String format(MessageReceivedEvent event)
+	private String[] format(MessageReceivedEvent event,String key)
 	{
 		String s = "Liste des commandes DiamsBot : \n";
 		for(ICommand c : Registry.commands)
 		{
+			if(key == null || c.getName().toLowerCase().contains(key.toLowerCase()))
 			s = s+ ">"+c.getName()+ " : "+ c.getDesc()+ ".  Usage: " +c.getUsage()+"\n";
 		}
 		s=s+ "\n Liste des actions DiamsBot : \n";
 		for(IAction a : Registry.actions)
 		{
+			if(key == null || a.name().toLowerCase().contains(key.toLowerCase()))
 			s = s+ a.name()+ " =>  "+ a.usage()+"\n";
 		}
-		return s;
+		String[] res = new String[(s.length()/2000)+1];
+		for(int i=0;i<res.length;i++)
+		{
+			res[i]= s.substring(i*2000,Math.min((i+1)*2000,s.length()));
+		}
+		//.substring(0,2000)
+		return res;
 
 	}
 

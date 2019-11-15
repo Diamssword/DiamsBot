@@ -8,7 +8,6 @@ import com.diamssword.bot.api.actions.ICommand;
 import com.diamssword.bot.api.actions.ITickable;
 import com.diamssword.bot.api.actions.Registry;
 import com.diamssword.bot.api.audio.Langues;
-import com.diamssword.bot.api.permissions.Perm;
 import com.diamssword.bot.api.storage.GuildStorage;
 import com.diamssword.bot.api.storage.ISavable;
 import com.diamssword.bot.api.utils.MembersUtil;
@@ -170,6 +169,11 @@ public class TTSCmd implements ICommand,ITickable{
 			public String toText(Gson json) {
 
 				return json.toJson(this);
+			}
+
+			@Override
+			public Class<?> savedClass() {
+				return this.getClass();
 			}
 		}
 

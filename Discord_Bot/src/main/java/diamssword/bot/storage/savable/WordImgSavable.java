@@ -24,4 +24,9 @@ public class WordImgSavable implements ISavable<WordImgSavable>
 	
 		return json.toJson(this);
 	}
+
+	@Override
+	public Class<?> savedClass() {
+		return this.getClass();
+	}
 }

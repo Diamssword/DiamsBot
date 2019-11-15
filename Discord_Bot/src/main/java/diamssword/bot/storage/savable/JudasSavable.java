@@ -69,5 +69,14 @@ public class JudasSavable implements ISavable<JudasSavable>
 		
 			return json.toJson(this);
 		}
+
+		@Override
+		public Class<?> savedClass() {
+			return this.getClass();
+		}
+	}
+	@Override
+	public Class<?> savedClass() {
+		return this.getClass();
 	}
 }

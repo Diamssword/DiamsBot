@@ -9,6 +9,7 @@ import com.diamssword.bot.api.actions.ICommand;
 import com.diamssword.bot.api.actions.Registry;
 import com.diamssword.bot.api.utils.StringUtils;
 
+import net.dv8tion.jda.core.entities.ChannelType;
 import net.dv8tion.jda.core.events.StatusChangeEvent;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.events.message.react.MessageReactionAddEvent;
@@ -37,7 +38,6 @@ public class BotEventsHandler extends ListenerAdapter{
 	@Override
 	public void onMessageReceived(MessageReceivedEvent event)
 	{
-
 		//part wich handle the commands (starting with">")
 		if(event.getMessage().getContentDisplay().startsWith(">"))
 		{
@@ -48,7 +48,7 @@ public class BotEventsHandler extends ListenerAdapter{
 			{
 				if(cmd.getName().toLowerCase().equals(args[0].toLowerCase()))
 				{
-					if(References.PermManager.canUse(event.getMember(), cmd))
+					if(event.getChannel().getType() == ChannelType.PRIVATE || References.PermManager.canUse(event.getMember(), cmd))
 					{
 						List<String> args1 = new ArrayList<String>();
 						for(int i=1;i < args.length;i++)

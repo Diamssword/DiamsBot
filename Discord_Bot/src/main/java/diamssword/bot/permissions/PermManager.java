@@ -1,7 +1,6 @@
 package diamssword.bot.permissions;
 
 import java.lang.reflect.Type;
-import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -23,7 +22,6 @@ import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
 
 import diamssword.bot.storage.Storage;
-import net.dv8tion.jda.core.Permission;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.Role;
 import net.dv8tion.jda.core.entities.impl.RoleImpl;
@@ -129,6 +127,8 @@ public class PermManager implements IPermManager {
 	}
 	@Override
 	public boolean canUse(Member member, ICommand command) {
+		if(member.getGuild() == null)
+			return true;
 		List<Perm> perms =this.getPerms(member.getGuild().getId(), command.getName());
 		if(perms.contains(Perm.ADMIN))
 			if(member.hasPermission(Perm.ADMIN.grade.getPermissions()))
@@ -178,6 +178,11 @@ public class PermManager implements IPermManager {
 		public String toText(Gson json) {
 			Gson g =json.newBuilder().registerTypeAdapter(Perm.class, new PermSerializer()).create();
 			return g.toJson(this);
+		}
+
+		@Override
+		public Class<?> savedClass() {
+			return this.getClass();
 		}
 	}
 

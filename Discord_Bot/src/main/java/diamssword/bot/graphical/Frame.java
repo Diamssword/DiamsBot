@@ -2,8 +2,10 @@ package diamssword.bot.graphical;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Font;
 import java.awt.Graphics2D;
+import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentEvent;
@@ -11,11 +13,15 @@ import java.awt.event.ComponentListener;
 import java.awt.image.BufferedImage;
 import java.io.PrintStream;
 
+import javax.swing.Icon;
 import javax.swing.JButton;
+import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
+import javax.swing.JTextField;
 import javax.swing.JTextPane;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.border.EmptyBorder;
@@ -24,7 +30,6 @@ import com.diamssword.bot.api.utils.LoadUtils;
 
 import diamssword.bot.Main;
 import diamssword.bot.utils.ConsoleOutputStream;
-import javax.swing.JTextField;
 
 @SuppressWarnings("serial")
 public class Frame extends JFrame {
@@ -62,13 +67,13 @@ public class Frame extends JFrame {
 		});
 		btnstop.setBounds(10, 376, 180, 61);
 		contentPane.add(btnstop);
-		
+
 		console = new JTextPane();
 		console.setEditable(false);
 		console.setBackground(Color.LIGHT_GRAY);
 		JPanel consolePane = new JPanel();
 		consolePane.setLayout(new BorderLayout());
-	//	console.setContentType("text/html;charset=UTF-8");
+		//	console.setContentType("text/html;charset=UTF-8");
 		consolePane.add(console, BorderLayout.NORTH);
 		consolePane.setBackground(Color.LIGHT_GRAY);
 		JScrollPane scrollBar = new JScrollPane();
@@ -104,7 +109,7 @@ public class Frame extends JFrame {
 			@Override
 			public void componentHidden(ComponentEvent e) {
 			}});
-	
+
 		//redirect outStreams to Graphical Console and log file
 		System.setOut(new PrintStream(new ConsoleOutputStream(console,new Color(0,163,30))));
 		System.setErr(new PrintStream(new ConsoleOutputStream(console,Color.RED)));
@@ -130,10 +135,19 @@ public class Frame extends JFrame {
 		textField.setBounds(10, 229, 180, 136);
 		contentPane.add(textField);
 		textField.setColumns(10);
-		
+
 		JLabel lblGuildsList = new JLabel("Guilds list:");
 		lblGuildsList.setForeground(Color.WHITE);
 		lblGuildsList.setBounds(10, 216, 105, 14);
 		contentPane.add(lblGuildsList);
 	}
+	public Object createPopup(IFramePopup popup,boolean InputType)
+	{
+		if(!InputType)
+			return JOptionPane.showOptionDialog(this,popup.message() , popup.title(), JOptionPane.YES_NO_OPTION,JOptionPane.QUESTION_MESSAGE,null, popup.buttons(),null);
+		else
+			return JOptionPane.showInputDialog(this,popup.message() , popup.title(), JOptionPane.YES_OPTION,null, popup.buttons(),null);
+	}
+
 }
+

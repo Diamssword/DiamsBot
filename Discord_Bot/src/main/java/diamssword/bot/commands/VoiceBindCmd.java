@@ -34,7 +34,7 @@ public class VoiceBindCmd implements ICommand{
 	public void execute(MessageReceivedEvent event, String ... args) {
 		if(!event.getAuthor().isFake() && !event.getAuthor().isBot())
 		{
-			if(args.length>1)
+			if(args.length>=1)
 			{
 				if(args[0].equals("list"))
 				{

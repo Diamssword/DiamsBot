@@ -5,6 +5,7 @@ import com.diamssword.bot.api.References;
 import com.diamssword.bot.api.actions.ITickable;
 import com.diamssword.bot.api.actions.Registry;
 
+import diamssword.bot.alexa.RemindAlexa;
 import diamssword.bot.commands.Commands;
 import net.dv8tion.jda.core.entities.Guild;
 
@@ -30,6 +31,7 @@ public class InternalPlugin implements IPlugin,ITickable{
 	public void init() {
 		Commands.init();
 		Registry.registerTickable(this);
+		Registry.registerTickable(new RemindAlexa());
 	}
 
 	@Override
