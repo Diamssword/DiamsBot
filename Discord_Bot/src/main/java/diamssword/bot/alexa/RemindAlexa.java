@@ -7,6 +7,7 @@ import java.util.List;
 
 import com.diamssword.bot.api.actions.ITickable;
 import com.diamssword.bot.api.storage.JsonGuildStorage;
+import com.diamssword.bot.api.storage.JsonSavable;
 import com.diamssword.bot.api.utils.MembersUtil;
 import com.diamssword.bot.api.utils.StringUtils;
 
@@ -145,13 +146,20 @@ public class RemindAlexa implements ISubAlexa,ITickable
 	@Override
 	public void tick(Guild guild) {
 		List<Reminder> ls = new ArrayList<Reminder>();
-		ls.addAll(storage.get(guild.getId()).get().list);
+		JsonSavable<RemindDatas> g =storage.get(guild.getId());
+		if(storage != null && g != null &&g.get() != null)
+		{
+			List<Reminder> ls1 =g.get().list;
+
+			if(ls1 != null && !ls1.isEmpty())
+				ls.addAll(ls1);
+		}
 		for(Reminder rem : ls)
 		{
 			if(rem.time <= System.currentTimeMillis())
 			{
 				storage.get(guild.getId()).get().list.remove(rem);
-				
+
 				String msg="Hey <@"+rem.destinationID+">! @member want to reminds you : **"+rem.message+"**!";
 				if(rem.sourceID.equals(rem.destinationID))
 					msg="Hey <@"+rem.destinationID+">! You asked me to remind you : **"+rem.message+"**!";

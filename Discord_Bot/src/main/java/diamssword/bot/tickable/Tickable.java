@@ -28,7 +28,7 @@ public class Tickable {
 						{
 							if(System.currentTimeMillis() > Registry.tickables.get(tick)+tick.everyMS())
 							{
-								tick.tickSingle();;
+								tick.tickSingle();
 								for(Guild g : References.bot.getGuilds())
 									tick.tick(g);
 								Registry.tickables.put(tick,System.currentTimeMillis());

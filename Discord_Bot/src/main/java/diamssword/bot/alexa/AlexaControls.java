@@ -44,7 +44,7 @@ public class AlexaControls
 
 		@Override
 		public String[] getSubCommand() {
-			return new String[] {"stop"};
+			return new String[] {"stop","stfu"};
 		}
 		@Override
 		public void execute(MessageReceivedEvent event, String trigger, String after) {

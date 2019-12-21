@@ -21,7 +21,7 @@ import net.dv8tion.jda.core.requests.restaction.InviteAction;
 
 public class ThanosCmd implements ICommand,ITickable{
 
-	public List<String> list= new ArrayList<String>();
+	public static List<String> list= new ArrayList<String>();
 	public ThanosCmd()
 	{
 

@@ -6,9 +6,9 @@ import diamssword.bot.actions.AlexaAction;
 import diamssword.bot.actions.ChatBot;
 import diamssword.bot.actions.DadJokeAction;
 import diamssword.bot.actions.IsThisAction;
+import diamssword.bot.actions.PPemojiAction;
 import diamssword.bot.actions.WordImgAction;
 import diamssword.bot.actions.WordVoiceAction;
-import diamssword.bot.lol.LolCmd;
 
 public class Commands {
 
@@ -23,7 +23,6 @@ public class Commands {
 		Registry.registerCmd(new FactCmd());
 		Registry.registerCmd(new DiceCmd());
 		Registry.registerCmd(new WizzCmd());
-		Registry.registerCmd(new LolCmd());
 		Registry.registerCmd(new ProfilMixCmd());
 		Registry.registerCmd(new PokedexCmd());
 		Registry.registerCmd(new CyanideCmd());
@@ -32,7 +31,7 @@ public class Commands {
 		Registry.registerCmd(new PermCmd());
 		Registry.registerCmd(new SatanicCmd());
 		Registry.registerCmd(new EreaseCmd());
-		Registry.registerCmd(new GetPPCmd());
+		Registry.registerCmd(new MoneyCmd());
 		Registry.registerCmd(new ThanosCmd());
 		Registry.registerCmd(new ThanosPussyCmd());
 
@@ -42,6 +41,7 @@ public class Commands {
 		Registry.registerAction(new ChatBot());
 		Registry.registerAction(new DadJokeAction());
 		Registry.registerAction(new AlexaAction());
+		Registry.registerAction(new PPemojiAction());
 	}
 	
 }

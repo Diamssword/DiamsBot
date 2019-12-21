@@ -38,14 +38,15 @@ public class EreaseCmd implements ICommand{
 			{
 				String userID = References.bot.getSelfUser().getId();
 
-				System.out.println("hey");
 				long date = 0;
 				boolean flag = args[0].equalsIgnoreCase("from");
-
+				boolean flag2 = false;
 				String time =flag? args[1] :args[0];
 				if((flag && args.length>=3) || (!flag && args.length >=2))
 				{
 					String user = flag?args[2]:args[1];
+					if(user.equalsIgnoreCase("all"))
+						flag2 = true;
 					List <Member> m =MembersUtil.getMembersMatching(event.getGuild().getMembers(), user);
 					if(!m.isEmpty())
 						userID = m.get(0).getUser().getId();
@@ -104,10 +105,9 @@ public class EreaseCmd implements ICommand{
 				MessageHistory h1 = event.getChannel().getHistory();
 				h1.retrievePast(100).complete();
 				List<Message> hist =h1.getRetrievedHistory();
-				System.out.println("hey"+hist);
 				for(Message msg : hist)
 				{
-					if(msg.getCreationTime().toInstant().toEpochMilli()>= date && msg.getAuthor().getId().equals(userID))
+					if(msg.getCreationTime().toInstant().toEpochMilli()>= date && (msg.getAuthor().getId().equals(userID)|| flag2))
 					{
 						event.getChannel().deleteMessageById(msg.getId()).queue();
 					}

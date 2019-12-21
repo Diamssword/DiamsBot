@@ -61,7 +61,7 @@ public class BotEventsHandler extends ListenerAdapter{
 							argsF= args1.toArray(argsF);
 						String[] argsFinal= argsF;
 						new Thread(new Runnable() {
-							
+
 
 							@Override
 							public void run() {
@@ -70,9 +70,9 @@ public class BotEventsHandler extends ListenerAdapter{
 								} catch (InstantiationException | IllegalAccessException e) {
 									cmd.execute(event, argsFinal);
 								}
-								
+
 							}}).start();
-						
+
 					}
 					else
 					{
@@ -95,19 +95,19 @@ public class BotEventsHandler extends ListenerAdapter{
 						int index = msg.toLowerCase().indexOf(s.toLowerCase());
 						String first = msg.substring(0, index);
 						String last = msg.substring(index+s.length());
-						if((first.length() < 2 ||first.endsWith(" ")) && (last.length() <2 ||last.startsWith(" ")))
+						if(!action.shouldBeSpaced() || ((first.length() < 2 ||first.endsWith(" ")) && (last.length() <2 ||last.startsWith(" "))))
 						{
 							new Thread(new Runnable() {
-								
+
 
 								@Override
 								public void run() {
 									try {
 										action.getClass().newInstance().execute(event ,s, first,last);
 									} catch (InstantiationException | IllegalAccessException e) {
-									action.execute(event,s, first,last);
+										action.execute(event,s, first,last);
 									}
-									
+
 								}}).start();
 							break;
 						}
