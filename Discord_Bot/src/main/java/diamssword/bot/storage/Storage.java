@@ -29,23 +29,26 @@ public class Storage implements IStorage{
 
 
 	static boolean first= true;
-	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void init(Guild g)
 	{
-		File f =new File("botdata/"+g.getId());
+		init(g.getId());
+	}
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void init(String gid)
+	{
+		File f =new File("botdata/"+gid);
 		f.mkdirs();
 		for(AGuildStorage gs : list)
 		{
-			gs.init(g.getId());
-			ISavable sav = gs.load(g.getId());
+			gs.init(gid);
+			ISavable sav = gs.load(gid);
 			if(sav != null)
-				gs.set(g,sav);
+				gs.set(gid,sav);
 			if(first)
 			LOG.log(Level.INFO,"Loaded GuildStorage:"+gs.getSavableClass().getSimpleName()+"!");
 		}
 		first = false;
 	}
-
 
 	@SuppressWarnings("rawtypes")
 	@Override

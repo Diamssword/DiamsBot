@@ -41,6 +41,7 @@ public class SatanicFont {
 
 	}
 	public static BufferedImage img = LoadUtils.loadImg("satanic.png");
+	public static BufferedImage img1 = LoadUtils.loadImg("standard_galactic.png");
 	public static BufferedImage fromString(String s)
 	{
 		String reverse = "";
@@ -60,5 +61,22 @@ public class SatanicFont {
 		}
 		graph.dispose();
 		return res;
+	}
+	public static BufferedImage EnchantFromString(String s)
+	{
+		String res ="";
+		res= s.toLowerCase().replaceAll("[^a-z]", " ");
+		int lenght = (res.length()*15)+30;
+		BufferedImage res1 = new BufferedImage(lenght, 15, BufferedImage.TYPE_INT_ARGB);
+		Graphics2D graph = res1.createGraphics();
+		
+		for(int i= 0;i<res.length();i++)
+		{
+			int pos = res.charAt(i)-97; 
+			graph.drawImage(img1, i*15, 0, (i*15)+15, 15, pos*15, 0, (pos*15)+15, 15, null);	
+		}
+		graph.drawImage(img1, res.length()*15, 2, (res.length()*15)+15, 12, 0, 15, 30, 25, null);	
+		graph.dispose();
+		return res1;
 	}
 }

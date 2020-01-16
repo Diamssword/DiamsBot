@@ -90,6 +90,7 @@ public class Main {
 		LOG.log(Level.INFO, "--Loading Stored Datas for each guilds--");
 		for(Guild g : References.bot.getGuilds())
 			((Storage) References.Storage).init(g);
+		((Storage) References.Storage).init(References.GLOBAL_STORAGE_ID);
 		LOG.log(Level.INFO, "...Done!");
 		LOG.log(Level.INFO, "--Clearing Caches--");
 		((TextToSpeechBot)References.TTSMaker).clearCache();
@@ -100,11 +101,10 @@ public class Main {
 		LOG.log(Level.INFO, "--PostInit Plugins--");
 		Statut();
 		LoadPlugins.postinit();
-
 	}
 
 
-
+ 
 	public static void kill()
 	{
 

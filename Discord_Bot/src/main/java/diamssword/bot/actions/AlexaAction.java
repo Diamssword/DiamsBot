@@ -11,6 +11,7 @@ import diamssword.bot.alexa.AlexaControls;
 import diamssword.bot.alexa.AlexaControls.IAlexaControl;
 import diamssword.bot.alexa.AlexaControls.Skip;
 import diamssword.bot.alexa.AlexaControls.Stop;
+import diamssword.bot.alexa.AlexaPlaylist;
 import diamssword.bot.alexa.Help;
 import diamssword.bot.alexa.ISubAlexa;
 import diamssword.bot.alexa.Play;
@@ -115,7 +116,9 @@ public class AlexaAction implements IAction{
 		subsAlexa.add(Stop.class);
 		subsAlexa.add(RemindAlexa.class);
 		subsAlexa.add(ThisIsSoSad.class);
+		subsAlexa.add(AlexaPlaylist.class);
 		References.Storage.registerStorage(RemindAlexa.storage);
+		References.Storage.registerStorage(AlexaPlaylist.storage);
 	}
 
 
